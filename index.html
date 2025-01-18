@@ -10,6 +10,12 @@ Este documento HTML implementa una página interactiva que incluye:
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
+      <!-- Botón de notificación y contenedor de toasts -->
+        <button id="notification-button" class="notification-button">📩 Haz clic para ver el mensaje</button>
+        <div id="toast-container"></div>
+        <audio id="notification-sound" src="plop.mp3"></audio>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video de Fondo con Parallax</title>
@@ -18,6 +24,11 @@ Este documento HTML implementa una página interactiva que incluye:
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
+  <!-- Botón de notificación y contenedor de toasts -->
+        <button id="notification-button" class="notification-button">📩 Haz clic para ver el mensaje</button>
+        <div id="toast-container"></div>
+        <audio id="notification-sound" src="plop.mp3"></audio>
+    
     <!-- Contenedor del video -->
     <div class="video-background">
         <video autoplay muted loop id="bg-video">
@@ -50,10 +61,7 @@ Este documento HTML implementa una página interactiva que incluye:
             </section>
         </section>
 
-        <!-- Botón de notificación y contenedor de toasts -->
-        <button id="notification-button" class="notification-button">📩 Haz clic para ver el mensaje</button>
-        <div id="toast-container"></div>
-        <audio id="notification-sound" src="plop.mp3"></audio>
+      
 
         <!-- Sección de confeti para eventos especiales -->
         <h1>¡Daria Grace!</h1>
